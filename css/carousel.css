@@ -1,0 +1,36 @@
+.carousel {
+  width: 100%;
+  height: 225px;
+  background: #290b25;
+  overflow-y: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-shadow: inset 0px 5px 10px #1f081c;
+  background: linear-gradient(45deg, #290b25, #3a0f42, #290b25);
+}
+
+.slide {
+  display: inline-block;
+  height: 175px;
+  width: 300px;
+  background: maroon;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 2px #1f0a1c;
+  margin: 27.5px 20px;
+}
+
+.slide {
+  background-image: url('../images/website-2019.png');
+  background-position: center;
+  background-size: 100%;
+  transition: all 0.5s ease;
+}
+
+.slide:nth-of-type(2) {
+  background-image: url('../images/giftwiz.png');
+}
+
+
+.slide:hover {
+  background-size: 125%;
+}
